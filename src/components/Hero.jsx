@@ -2,7 +2,7 @@
 
 const Hero =()=> (
 
-<section className='bg-[url("https://res.cloudinary.com/mindset/image/upload/v1689335056/Frame_27_uo4gu2.png")] bg-cover bg-center h-[588px] w-[100%] text-white p-[6%] justify-center flex-row'>
+<section className='bg-[url("https://res.cloudinary.com/mindset/image/upload/v1689335056/Frame_27_uo4gu2.png")] bg-cover bg-center h-[588px] w-[100%] text-white px-[10%] py-10 justify-center flex-row'>
     <div >
         <div className="text-left">
             <div className="text-[80px] w-[100%] font-semibold"  style={{

@@ -1,7 +1,7 @@
 import { star } from "../assets";
 
 const Disclaimer = () => (
-    <section className="bg-[#fff] px-10 py-10 text-[000]">
+    <section className="bg-[#fff] px-[10%] py-10 text-[000]">
         
             
             <div className ="flex align-center justify-center">

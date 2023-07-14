@@ -19,7 +19,7 @@ const ReadMore = ({ children }) => {
   };
 
 const Message = () => (
-    <section className="bg-[#FFF6DD] px-10 py-10">
+    <section className="bg-[#FFF6DD] px-[10%] py-10">
         
             
             <div className ="flex align-center justify-center">
@@ -56,7 +56,7 @@ const Message = () => (
                         We firmly believe that engaging our youth in skill development and acquisition programs is a powerful means to achieve these objectives, while also creating sustainable opportunities for the future.
                         </p>
 
-                        <p className="text-left text-[28px]"> 
+                        <p className="text-left text-[22px]"> 
                         <ReadMore>
 
 To this end, I am proud to introduce the Zamfara Youth Empowerment Scheme (ZAYES), a user-friendly portal designed to connect individuals across various sectors, including job seekers, artisans, farmers, and entrepreneurs, with prospective opportunities. ZAYES aims to address the pressing issue of unemployment by offering a platform that enhances the state's economy through the following key strategies:
