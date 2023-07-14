@@ -5,6 +5,7 @@ import Application from "./components/Application.jsx";
 import Footer from './components/Footer';
 import Disclaimer from "./components/Disclaimer";
 import Message from './components/Message';
+import Hero from './components/Hero';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <Hero/>
       <Message/>
       <Application/>
       <Registration/>
