@@ -1,18 +1,18 @@
-import { logo } from "../assets";
+import { logo, email, phone } from "../assets";
 
 const Footer =()=> (
 
-<section className="bg-[#D0B35F] p-10 h-[200px]">
+<section className="bg-[#D0B35F] px-[10%] py-10 h-[200px]">
     <div className="flex justify-between">
-    <img src={logo} alt="" className="h-[91px] w-[91px]"/>
+    <img src={logo} alt="" className="h-[131px] w-[131px]"/>
     <div >
-        <div className="text-left">
-            <a tel="08160071243">0805558095</a>
-            <img src="" alt="" />
+        <div className="items-right flex justify-end">
+            <p tel="08160071243" className="text-[20px] font-normal">0805558095</p>
+            <img src={phone} alt="" className="pl-3"/>
         </div>
-        <div>
-            <a mailto="smademola01@gmail.com">support@zamfara.gov.ng</a>
-            <img src="" alt="" />
+        <div className="flex pt-3">
+            <p mailto="smademola01@gmail.com" className="text-[20px] font-normal">support@zamfara.gov.ng</p>
+            <img src={email} alt="" className="pl-3"/>
         </div>
     </div>
     </div>

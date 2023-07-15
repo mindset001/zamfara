@@ -21,7 +21,9 @@ import grad3 from "./Frame 29 (2).png";
 import entr1 from "./Frame 29 (3).png";
 import entr2 from "./Frame 29 (4).png";
 import entr3 from "./Frame 29 (5).png";
-import claim from "./Group 47.png"
+import claim from "./Group 47.png";
+import email from "./email_2099199 1.png";
+import phone from "./1608790_phone_icon 1.png";
 
 export {
     star,
@@ -48,4 +50,6 @@ export {
     entr2,
     entr3,
     claim,
+    email,
+    phone,
 }
