@@ -13,7 +13,7 @@ export default function Mobile() {
     return (
       <div>
              <div className="bg-[#D0B35F] p-3 flex justify-between items-center">
-                <img src={logo} alt="" className="h-[80px] w-[80px] shadow-2xl rounded-full shadow-cyan-500/50"/>
+                <img src={logo} alt="" className="h-[80px] w-[80px] shadow-2xl rounded-full shadow-black"/>
                 <div onClick={handleClick}>
                     <div className="bg-white w-[20px] h-[1px] mb-1"></div>
                     <div className="bg-white w-[20px] h-[1px] mb-1"></div>

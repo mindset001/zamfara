@@ -43,8 +43,8 @@ const Objective = () => (
     // }}
     // navigation={true}
     //   scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+    //   onSwiper={(swiper) => console.log(swiper)}
+    //   onSlideChange={() => console.log('slide change')}
     >
       <SwiperSlide>
         <img src={product1} alt="" className=" h-[200px] w-[300px] md:h-[481px] md:w-[797px]"/>
@@ -61,7 +61,7 @@ const Objective = () => (
     </Swiper>
                 {/* end carossel */}
                 <div className="flex-row">
-                    <div className="flex items-center justify-center pb-5">
+                    <div className="flex items-center justify-center pb-5 pt-5">
                         <img src={icon} alt="" />
                         <h2 className="font-semibold text-[29px]">GOALS</h2>
                     </div>

@@ -11,7 +11,7 @@ const Hero =()=> (
           }}>Zamfara Youth <br /> Empowerment Scheme</div>
 
             <p className="text-[18px] md:text-[28px] font-normal w-auto md:w-[605px] py-5" >Harnessing skills to create  sustainable opportunities and wealth in the state </p>
-            <button className="bg-[#D0B35F] flex text-center justify-center  items-center text-[28px] font-medium rounded-[15px] w-[301px] h-[65px] mt-5">REGISTER NOW</button>
+            <button className="bg-[#D0B35F] flex text-center justify-center  items-center text-[28px] font-medium rounded-[15px] w-[301px] h-[65px] mt-5 md:mb-5">REGISTER NOW</button>
         </div>
         <div>
             

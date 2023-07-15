@@ -52,7 +52,7 @@ const Message = () => (
                     </div>
 
                     <div className="text-left">
-                        <p className="text-left text-[18px] md:text-[28px] w-full md:w-[70%]">
+                        <p className="text-left text-[18px] md:text-[28px] w-full md:w-[100%]">
                         We firmly believe that engaging our youth in skill development and acquisition programs is a powerful means to achieve these objectives, while also creating sustainable opportunities for the future.
                         </p>
 
