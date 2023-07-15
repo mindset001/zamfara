@@ -1,20 +1,20 @@
 import { star } from "../assets";
 
 const Application = () => (
-    <section className="bg-[#FFF6DD] px-[10%] py-10">
+    <section className="bg-[#FFF6DD] px-2 md:px-[10%] py-10">
         
             
             <div className ="flex align-center justify-center">
             {/* <div></div> */}
                 <div className="flex p-5">
                 <img src={star} alt="" />
-                <p className="text-uppercase text-red text-[52px] font-san px-2">WHO CAN APPLY?</p>
+                <p className="text-uppercase text-red text-[24px] md:text-[52px] font-san px-2">WHO CAN APPLY?</p>
                 <img src={star} alt="" />
                 </div>
                 {/* <div>b</div> */}
             </div>
             <div className=" px-8 pt-5">
-                <ul className="text-left list-disc text-[28px] text-ubuntu w-[80%] leading-10">
+                <ul className="text-left list-disc text-[20px] md:text-[28px] text-ubuntu w-auto md:w-[80%] leading-10">
                 <li>
                     Indigenes of Zamfara state.
                     </li>

@@ -24,19 +24,19 @@ const Graduate = () => (
     >
       <SwiperSlide>
        <div className="" >
-       <img src={grad1} alt="" className=" h-[276px] pl-[20%]"/>
+       <img src={grad1} alt="" className=" h-[276px] pl-[14%] md:pl-[20%]"/>
         <p className=" px-[6%]">Do you have a means of trade and are passionate to let the government know about your business?</p>
        </div> 
         </SwiperSlide>
       <SwiperSlide>
       <div className="" >
-       <img src={grad2} alt="" className=" h-[276px] pl-[20%]"/>
+       <img src={grad2} alt="" className=" h-[276px] pl-[14%] md:pl-[20%]"/>
         <p className=" px-[6%]">Do you have a means of trade and are passionate to let the government know about your business?</p>
        </div>
         </SwiperSlide>
       <SwiperSlide>
       <div className="" >
-       <img src={grad3} alt="" className=" h-[276px] pl-[20%]"/>
+       <img src={grad3} alt="" className=" h-[276px] pl-[14%] md:pl-[20%]"/>
         <p className=" px-[6%]">Do you have a means of trade and are passionate to let the government know about your business?</p>
        </div>
         </SwiperSlide>

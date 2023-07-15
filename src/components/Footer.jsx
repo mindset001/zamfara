@@ -2,8 +2,8 @@ import { logo, email, phone } from "../assets";
 
 const Footer =()=> (
 
-<section className="bg-[#D0B35F] px-[10%] py-10 h-[200px]">
-    <div className="flex justify-between">
+<section className="bg-[#D0B35F] px-[10%] py-10 h-auto md:h-[200px]">
+    <div className="flex flex-col md:flex-row justify-between">
     <img src={logo} alt="" className="h-[131px] w-[131px]"/>
     <div >
         <div className="items-right flex justify-end">

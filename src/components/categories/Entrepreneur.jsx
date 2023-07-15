@@ -24,19 +24,19 @@ const Entrepreneur = () => (
     >
       <SwiperSlide>
        <div className="" >
-       <img src={entr1} alt="" className=" h-[276px] pl-[20%]"/>
+       <img src={entr1} alt="" className=" h-[276px] pl-[14%] md:pl-[20%]"/>
         <p className=" px-[6%]">Do you have a means of trade and are passionate to let the government know about your business?</p>
        </div> 
         </SwiperSlide>
       <SwiperSlide>
       <div className="" >
-       <img src={entr2} alt="" className=" h-[276px] pl-[20%]"/>
+       <img src={entr2} alt="" className=" h-[276px] pl-[14%] md:pl-[20%]"/>
         <p className=" px-[6%]">Do you have a means of trade and are passionate to let the government know about your business?</p>
        </div>
         </SwiperSlide>
       <SwiperSlide>
       <div className="" >
-       <img src={entr3} alt="" className=" h-[276px] pl-[20%]"/>
+       <img src={entr3} alt="" className=" h-[276px] pl-[14%] md:pl-[20%]"/>
         <p className=" px-[6%]">Do you have a means of trade and are passionate to let the government know about your business?</p>
        </div>
         </SwiperSlide>

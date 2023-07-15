@@ -1,20 +1,20 @@
 import { star } from "../assets";
 
 const Registration = () => (
-    <section className="bg-[#372F2D] px-[10%] py-10 text-white">
+    <section className="bg-[#372F2D] px-2 md:px-[10%] py-10 text-white">
         
             
             <div className ="flex align-center justify-center">
             {/* <div></div> */}
                 <div className="flex p-5">
                 <img src={star} alt="" />
-                <p className="text-uppercase text-red text-[52px] font-san px-2">HOW TO REGISTER</p>
+                <p className="text-uppercase text-red text-[24px] md:text-[52px] font-san px-2">HOW TO REGISTER</p>
                 <img src={star} alt="" />
                 </div>
                 {/* <div>b</div> */}
             </div>
             <div className=" px-8 pt-5">
-                <ul className="text-left list-disc text-[28px] text-ubuntu w-[80%] leading-10">
+                <ul className="text-left list-disc text-[20px] md:text-[28px] text-ubuntu w-auto md:w-[80%] leading-10">
                 <li>
                     Visit the official Zamfara empowerment portal www.zep.zamfara.gov.ng
                     </li>

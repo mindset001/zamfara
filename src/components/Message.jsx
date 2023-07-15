@@ -10,7 +10,7 @@ const ReadMore = ({ children }) => {
     return (
       <p >
         {isReadMore ? text.slice(0, 0) : text}
-        <button className="text-[#D0B35F] flex text-center justify-center  items-center text-[28px] font-normal mt-5"
+        <button className="text-[#D0B35F] flex text-center justify-center  items-center text-[18px] md:text-[28px] font-normal mt-5"
         onClick={toggleReadMore}>
           {isReadMore ? "Read More" : " Read less"}
         </button>
@@ -19,21 +19,21 @@ const ReadMore = ({ children }) => {
   };
 
 const Message = () => (
-    <section className="bg-[#FFF6DD] px-[10%] py-10">
+    <section className="bg-[#FFF6DD] px-2 md:px-[10%] py-10">
         
             
             <div className ="flex align-center justify-center">
             {/* <div></div> */}
                 <div className="flex p-5">
                 <img src={star} alt="" />
-                <p className="text-uppercase text-red text-[52px] font-san px-3">WELCOME MESSAGE</p>
+                <p className="text-uppercase text-red text-[20px] md:text-[52px] font-san px-3">WELCOME MESSAGE</p>
                 <img src={star} alt="" />
                 </div>
                 {/* <div>b</div> */}
             </div>
             <div className=" px-8 pt-5">
                 <div>
-                    <div className="flex justify-between">
+                    <div className="flex flex-col md:flex-row md:justify-between">
                         <div className="">
                             <img src={gov} alt="" className="h-[273px] w-[273px]"/>
                             <div className="text-center">
@@ -41,7 +41,7 @@ const Message = () => (
                                 <p className="font-normal text-[11px]">Governor, Zamfara State</p>
                             </div>
                         </div>
-                            <div className="text-left text-[28px] w-[70%]">
+                            <div className="text-left text-[18px] md:text-[28px] w-full md:w-[70%] ">
                             <p className="pb-5">It gives me immense pleasure to extend a warm welcome to all of you on this esteemed platform.</p>
                                 <p>
                                     
@@ -52,11 +52,11 @@ const Message = () => (
                     </div>
 
                     <div className="text-left">
-                        <p className="text-[28px] w-[]">
+                        <p className="text-left text-[18px] md:text-[28px] w-full md:w-[70%]">
                         We firmly believe that engaging our youth in skill development and acquisition programs is a powerful means to achieve these objectives, while also creating sustainable opportunities for the future.
                         </p>
 
-                        <p className="text-left text-[22px]"> 
+                        <p className="text-left text-[18px] md:text-[22px] w-full md:w-[70%]"> 
                         <ReadMore>
 
 To this end, I am proud to introduce the Zamfara Youth Empowerment Scheme (ZAYES), a user-friendly portal designed to connect individuals across various sectors, including job seekers, artisans, farmers, and entrepreneurs, with prospective opportunities. ZAYES aims to address the pressing issue of unemployment by offering a platform that enhances the state's economy through the following key strategies:
