@@ -1,4 +1,4 @@
-import { star } from "../assets";
+import { claim } from "../assets";
 
 const Disclaimer = () => (
     <section className="bg-[#fff] px-[10%] py-10 text-[000]">
@@ -7,9 +7,9 @@ const Disclaimer = () => (
             <div className ="flex align-center justify-center">
             {/* <div></div> */}
                 <div className="flex p-5">
-                <img src={star} alt="" />
-                <p className="text-uppercase text-red text-[52px] font-san px-2">DISCLAIMER</p>
-                <img src={star} alt="" />
+                <img src={claim} alt="" />
+                <p className="text-uppercase text-red text-[52px] font-san px-2 pt-4">DISCLAIMER</p>
+                <img src={claim} alt="" />
                 </div>
                 {/* <div>b</div> */}
             </div>

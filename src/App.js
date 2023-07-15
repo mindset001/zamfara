@@ -8,6 +8,7 @@ import Message from './components/Message';
 import Hero from './components/Hero';
 import Objective from './components/Objective';
 import Category from './components/Category';
+import Header from './components/Header';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <Header/>
       <Hero/>
       <Message/>
       <Objective/>
