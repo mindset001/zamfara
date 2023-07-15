@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Disclaimer from "./components/Disclaimer";
 import Message from './components/Message';
 import Hero from './components/Hero';
+import Objective from './components/Objective';
+import Category from './components/Category';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
       </header> */}
       <Hero/>
       <Message/>
+      <Objective/>
+      <Category/>
       <Application/>
       <Registration/>
       <Disclaimer/>
