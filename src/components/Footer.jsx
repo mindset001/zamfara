@@ -16,6 +16,9 @@ const Footer =()=> (
         </div>
     </div>
     </div>
+    <div>
+        <p className="pt-5 md:pt-0">all right reserved@Greenby2023</p>
+    </div>
 </section>
 );
 
