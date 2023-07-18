@@ -34,9 +34,9 @@ const Message = () => (
             <div className=" px-8 pt-5">
                 <div>
                     <div className="flex flex-col md:flex-row md:justify-between">
-                        <div className="">
+                        <div className=" items-center">
                             <img src={gov} alt="" className="h-[273px] w-[273px]"/>
-                            <div className="text-center">
+                            <div className="text-center pb-3">
                                 <h2 className="font-bold text-[15px]">H.E Dauda Lawal Dare</h2>
                                 <p className="font-normal text-[11px]">Governor, Zamfara State</p>
                             </div>
