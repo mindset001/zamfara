@@ -25,9 +25,9 @@ const Message = () => (
             <div className ="flex align-center justify-center">
             {/* <div></div> */}
                 <div className="flex p-5">
-                <img src={star} alt="" />
-                <p className="text-uppercase text-red text-[20px] md:text-[52px] font-san px-3">WELCOME MESSAGE</p>
-                <img src={star} alt="" />
+                <img src={star} alt="" className=" w-[25px] h-[25px] md:w-[58px] md:h-[58px]"/>
+                <p className="text-uppercase text-red w-auto text-[20px] md:text-[52px] font-san md:px-3 px-1 font-semibold">WELCOME MESSAGE</p>
+                <img src={star} alt="" className=" w-[25px] h-[25px] md:w-[58px] md:h-[58px]"/>
                 </div>
                 {/* <div>b</div> */}
             </div>
@@ -41,7 +41,7 @@ const Message = () => (
                                 <p className="font-normal text-[11px]">Governor, Zamfara State</p>
                             </div>
                         </div>
-                            <div className="text-left text-[18px] md:text-[28px] w-full md:w-[70%] ">
+                            <div className="text-left text-[16px] md:text-[28px] w-full md:w-[70%] ">
                             <p className="pb-5">It gives me immense pleasure to extend a warm welcome to all of you on this esteemed platform.</p>
                                 <p>
                                     
@@ -52,11 +52,11 @@ const Message = () => (
                     </div>
 
                     <div className="text-left">
-                        <p className="text-left text-[18px] md:text-[28px] w-full md:w-[100%]">
+                        <p className="text-left text-[16px] md:text-[28px] w-full md:w-[100%] py-3">
                         We firmly believe that engaging our youth in skill development and acquisition programs is a powerful means to achieve these objectives, while also creating sustainable opportunities for the future.
                         </p>
 
-                        <p className="text-left text-[18px] md:text-[22px] w-full md:w-[70%]"> 
+                        <p className="text-left text-[16px] md:text-[22px] w-full md:w-[70%]"> 
                         <ReadMore>
 
 To this end, I am proud to introduce the Zamfara Youth Empowerment Scheme (ZAYES), a user-friendly portal designed to connect individuals across various sectors, including job seekers, artisans, farmers, and entrepreneurs, with prospective opportunities. ZAYES aims to address the pressing issue of unemployment by offering a platform that enhances the state's economy through the following key strategies:

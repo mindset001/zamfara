@@ -6,15 +6,15 @@ const Registration = () => (
             
             <div className ="flex align-center justify-center">
             {/* <div></div> */}
-                <div className="flex p-5">
-                <img src={star} alt="" />
-                <p className="text-uppercase text-red text-[24px] md:text-[52px] font-san px-2">HOW TO REGISTER</p>
-                <img src={star} alt="" />
+            <div className="flex p-5 w-auto">
+                <img src={star} alt="" className=" w-[25px] h-[25px] md:w-[58px] md:h-[58px]"/>
+                <p className="text-uppercase text-red w-auto text-[20px] md:text-[52px] font-san md:px-3 px-1 font-semibold">HOW TO REGISTER</p>
+                <img src={star} alt="" className=" w-[25px] h-[25px] md:w-[58px] md:h-[58px]" />
                 </div>
                 {/* <div>b</div> */}
             </div>
             <div className=" px-8 pt-5">
-                <ul className="text-left list-disc text-[20px] md:text-[28px] text-ubuntu w-auto md:w-[80%] leading-10">
+                <ul className="text-left list-disc text-[14px] md:text-[28px] text-ubuntu w-auto md:w-[80%] leading-10">
                 <li>
                     Visit the official Zamfara empowerment portal www.zep.zamfara.gov.ng
                     </li>

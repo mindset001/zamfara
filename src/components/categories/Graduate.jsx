@@ -17,7 +17,7 @@ const Graduate = () => (
     //   spaceBetween={50}
       slidesPerView={1}
       autoplay={{
-        delay: 2500,
+        delay: 2700,
         disableOnInteraction: true,
     }}
     //   scrollbar={{ draggable: true }}
