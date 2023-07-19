@@ -13,7 +13,7 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <div className=" sticky top-0 left-0 right-0"> <Header /></div>
+      <div className=" sticky top-0 left-0 right-0 z-10"> <Header /></div>
      
       <Hero/>
       <Message/>

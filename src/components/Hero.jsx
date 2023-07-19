@@ -7,7 +7,7 @@ const Hero =()=> (
         <div className="text-left">
             <div className=" text-[25px] md:text-[80px] w-full font-semibold font-ubuntu pt-[20%] md:pt-0 text-center md:text-left"  style={{
             textTransform: 'uppercase',
-            // fontFamily: 'ubuntu'
+            // fontFamily: 'Plus Jakarta Sans'
           }}>Zamfara Youth <br /> Empowerment Scheme</div>
 
             <p className="text-[18px] md:text-[28px] font-normal w-auto md:w-[605px] py-5 text-center md:text-left">Harnessing skills to create  sustainable opportunities and wealth in the state </p>

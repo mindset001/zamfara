@@ -19,7 +19,7 @@ const ReadMore = ({ children }) => {
   };
 
 const Message = () => (
-    <section className="bg-[#FFF6DD] px-2 md:px-[10%] py-10">
+    <section className="bg-[#FFF6DD] px-2 md:px-[10%] py-[5%]">
         
             
             <div className ="flex align-center justify-center">

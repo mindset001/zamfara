@@ -5,7 +5,7 @@ import Graduate from "./categories/Graduate";
 
 
 const Category = () => (
-    <section className="flex flex-col w-[100%] md:justify-between md:flex-row">
+    <section className="flex flex-col w-[100%] md:justify-between md:flex-row ">
         
             
             <div className =" bg-[#D0B35F] w-full md:w-[33.2%] items-center flex-row justify-center">

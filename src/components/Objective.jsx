@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 const Objective = () => (
-    <section className="bg-[#F6F6F6] px-2 md:px-[10%] py-10 text-[000]">
+    <section className="bg-[#F6F6F6] px-2 md:px-[10%] py-[10%] text-[000]">
         
             
             <div className ="flex flex-col md:flex-row align-center justify-center w-auto">
