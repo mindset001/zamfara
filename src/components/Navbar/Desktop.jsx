@@ -13,7 +13,7 @@ const Header = () => (
                     <li className="cursor-pointer hover:text-white active:text-white">Home</li>
                     <li>Register</li>
                     <li>Category</li>
-                    <li>About ZEP99</li>
+                    <li>About ZEP</li>
                 </ul>
                </div>
             </div>

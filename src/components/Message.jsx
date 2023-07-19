@@ -35,7 +35,7 @@ const Message = () => (
                 <div>
                     <div className="flex flex-col md:flex-row md:justify-between">
                         <div className=" items-center">
-                            <img src={gov} alt="" className="h-[273px] w-[273px]"/>
+                            <img src={gov} alt="" className="h-[273px] w-[273px]" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"/>
                             <div className="text-center pb-3">
                                 <h2 className="font-bold text-[15px]">H.E Dauda Lawal Dare</h2>
                                 <p className="font-normal text-[11px]">Governor, Zamfara State</p>
@@ -56,7 +56,7 @@ const Message = () => (
                         We firmly believe that engaging our youth in skill development and acquisition programs is a powerful means to achieve these objectives, while also creating sustainable opportunities for the future.
                         </p>
 
-                        <p className="text-left text-[16px] md:text-[22px] w-full md:w-[70%]"> 
+                        <p className="text-left text-[16px] md:text-[22px] w-full"> 
                         <ReadMore>
 
 To this end, I am proud to introduce the Zamfara Youth Empowerment Scheme (ZAYES), a user-friendly portal designed to connect individuals across various sectors, including job seekers, artisans, farmers, and entrepreneurs, with prospective opportunities. ZAYES aims to address the pressing issue of unemployment by offering a platform that enhances the state's economy through the following key strategies:

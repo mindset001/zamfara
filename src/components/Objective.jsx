@@ -62,7 +62,7 @@ const Objective = () => (
                 {/* end carossel */}
                 <div className="flex-row mt-5">
                     <div className="flex items-center justify-center pb-5 pt-5">
-                        <img src={icon} alt="" className=" w-[25px] h-[25px] md:w-[58px] md:h-[58px]"/>
+                        <img src={icon} alt="" className=" w-[25px] h-[21px] md:w-[58px] md:h-[50px]"/>
                         <h2 className="text-uppercase text-red w-auto text-[20px] md:text-[29px] font-san md:px-3 px-1 font-semibold">GOALS</h2>
                     </div>
                     <p className="font-normal text-[12px] md:text-[24px] w-auto md:w-[519px] text-center">Taking the lead in empowering the people of Zamfara, fostering a prosperous and vibrant community through inclusive opportunities and sustainable development.</p>
