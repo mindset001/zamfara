@@ -52,11 +52,11 @@ const Message = () => (
                     </div>
 
                     <div className="text-left">
-                        <p className="text-left text-[16px] md:text-[28px] w-full md:w-[100%] py-3">
+                        <p className="text-justify text-[16px] md:text-[28px] w-full md:w-[100%] py-3">
                         We firmly believe that engaging our youth in skill development and acquisition programs is a powerful means to achieve these objectives, while also creating sustainable opportunities for the future.
                         </p>
 
-                        <p className="text-left text-[16px] md:text-[22px] w-full"> 
+                        <p className="text-justify text-[16px] md:text-[28px] w-full"> 
                         <ReadMore>
 
 To this end, I am proud to introduce the Zamfara Youth Empowerment Scheme (ZAYES), a user-friendly portal designed to connect individuals across various sectors, including job seekers, artisans, farmers, and entrepreneurs, with prospective opportunities. ZAYES aims to address the pressing issue of unemployment by offering a platform that enhances the state's economy through the following key strategies:

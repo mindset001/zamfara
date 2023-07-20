@@ -11,17 +11,17 @@ const Category = () => (
             <div className =" bg-[#D0B35F] w-full md:w-[33.2%] items-center flex-row justify-center">
                 <p className=" text-[24px] font-bold mt-5 mb-5">VOCATIONAL SKILLS</p>
                 <Vocational/>
-                    <button className="text-black bg-white rounded-[10px] w-[172px] h-[49px] text-[20px] font-semibold mt-5 mb-5">Register</button>
+                    <button className="text-black bg-white rounded-[10px] w-[172px] h-[49px] text-[20px] font-semibold mt-5 mb-[10%]">Register</button>
             </div>
             <div className =" align-center justify-center bg-[#FFF6DD] w-full md:w-[33.5%]">
             <p className=" text-[24px] font-bold mt-5 mb-5">GRADUATE</p>
                 <Graduate/>
-                    <button className="text-white bg-[#D0B35F] rounded-[10px] w-[172px] h-[49px] text-[20px] font-semibold mt-5 mb-5">Register</button>
+                    <button className="text-white bg-[#D0B35F] rounded-[10px] w-[172px] h-[49px] text-[20px] font-semibold mt-5 mb-[10%]">Register</button>
             </div>
             <div className =" align-center justify-center bg-[#D0B35F] w-full md:w-[33.3%]">
             <p className=" text-[24px] font-bold mt-5 mb-5">ENTREPRENEURSHIP</p>
                 <Entrepreneur/>
-                    <button className="text-black bg-white rounded-[10px] w-[172px] h-[49px] text-[20px] font-semibold mt-5 mb-5">Register</button>
+                    <button className="text-black bg-white rounded-[10px] w-[172px] h-[49px] text-[20px] font-semibold mt-5 mb-[10%]">Register</button>
             </div>
     </section>
   
