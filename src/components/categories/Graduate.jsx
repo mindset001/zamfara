@@ -25,19 +25,19 @@ const Graduate = () => (
       <SwiperSlide>
        <div className="" >
        <img src={grad1} alt="" className=" h-[276px] pl-[14%] md:pl-[20%]"/>
-        <p className=" px-[6%]">Do you have a means of trade and are passionate to let the government know about your business?</p>
+        <p className=" px-[6%]">Boundless curiosity, relentless pursuit of wisdom!  As a graduate student, I immerse myself in the realm of knowledge, fueled by a passion for discovery. Join me on this transformative journey.</p>
        </div> 
         </SwiperSlide>
       <SwiperSlide>
       <div className="" >
        <img src={grad2} alt="" className=" h-[276px] pl-[14%] md:pl-[20%]"/>
-        <p className=" px-[6%]">Do you have a means of trade and are passionate to let the government know about your business?</p>
+        <p className=" px-[6%]">Embracing knowledge, chasing horizons!  As a graduate student, I delve into the depths of academia with curiosity and determination. Join me on this enlightening voyage, where I unlock new insights and contribute to the world of research and innovation.</p>
        </div>
         </SwiperSlide>
       <SwiperSlide>
       <div className="" >
        <img src={grad3} alt="" className=" h-[276px] pl-[14%] md:pl-[20%]"/>
-        <p className=" px-[6%]">Do you have a means of trade and are passionate to let the government know about your business?</p>
+        <p className=" px-[6%]">As a graduate student, I embrace the thrill of discovery and the joy of learning. Join me on this academic expedition as I delve deeper into my field, aiming for excellence and making a difference along the way.</p>
        </div>
         </SwiperSlide>
     </Swiper>

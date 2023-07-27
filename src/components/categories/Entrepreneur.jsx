@@ -25,19 +25,19 @@ const Entrepreneur = () => (
       <SwiperSlide>
        <div className="" >
        <img src={entr1} alt="" className=" h-[276px] pl-[14%] md:pl-[20%]"/>
-        <p className=" px-[6%]">Do you have a means of trade and are passionate to let the government know about your business?</p>
+        <p className=" px-[6%]">Rooted in the community, trading with heart and soul! As a local market trader, I embrace the essence of tradition and connection, offering handpicked treasures that reflect our culture and heritage. Join me on this enriching journey, where every transaction supports local artisans and keeps our community thriving.</p>
        </div> 
         </SwiperSlide>
       <SwiperSlide>
       <div className="" >
        <img src={entr2} alt="" className=" h-[276px] pl-[14%] md:pl-[20%]"/>
-        <p className=" px-[6%]">Do you have a means of trade and are passionate to let the government know about your business?</p>
+        <p className=" px-[6%]">Serving nature's sweetness, one fruit at a time! I bring the freshest produce to your plate, nurturing health and delight with every sale. Join me on this fruitful path, where the colors and flavors of nature unite, and happiness blooms like a ripe harvest.</p>
        </div>
         </SwiperSlide>
       <SwiperSlide>
       <div className="" >
        <img src={entr3} alt="" className=" h-[276px] pl-[14%] md:pl-[20%]"/>
-        <p className=" px-[6%]">Do you have a means of trade and are passionate to let the government know about your business?</p>
+        <p className=" px-[6%]">Aspiring to be the best barber, I craft hairstyles that reflect individuality and boost confidence. Join me on this grooming voyage where every cut is a work of art, and every client leaves with a smile.</p>
        </div>
         </SwiperSlide>
     </Swiper>

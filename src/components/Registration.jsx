@@ -14,30 +14,30 @@ const Registration = () => (
                 {/* <div>b</div> */}
             </div>
             <div className=" px-8 pt-5">
-                <ul className="text-left list-disc text-[14px] md:text-[28px] text-ubuntu w-auto md:w-[80%] leading-10">
-                <li>
-                    Visit the official Zamfara empowerment portal www.zep.zamfara.gov.ng
+                <ul className="text-left list-none text-[14px] md:text-[28px] text-ubuntu w-auto md:w-[80%] leading-10">
+                <li className="pb-2">
+                    <span className=" font-bold">STEP 1: </span> Visit the official Zamfara empowerment portal www.zep.zamfara.gov.ng
                     </li>
-                    <li>
-                    Scroll to the menu bar click on SIGNUP 
+                    <li className="pb-2">
+                    <span className=" font-bold">STEP 2: </span> Scroll to the menu bar click on SIGNUP 
                     </li>
-                    <li>
-                    Enter correctly your email address and full name to create an account and follow subsequent instructions
+                    <li className="pb-2">
+                    <span className=" font-bold">STEP 3: </span> Enter correctly your email address and full name to create an account and follow subsequent instructions
                     </li>
-                    <li>
-                    Go back to the website www.zep.zamfara.gov.ng
+                    <li className="pb-2">
+                    <span className=" font-bold">STEP 4: </span> Go back to the website www.zep.zamfara.gov.ng
                     </li>
-                    <li>
-                    Scroll to the menu bar and click on Category 
+                    <li className="pb-2">
+                    <span className=" font-bold">STEP 5: </span> Scroll to the menu bar and click on Category 
                     </li>
-                    <li>
-                    Select the category of interest and click REGISTER 
+                    <li className="pb-2">
+                    <span className=" font-bold">STEP 6: </span> Select the category of interest and click REGISTER 
                     </li>
-                    <li>
-                    Fill in  the required details correctly
+                    <li className="pb-2">
+                    <span className=" font-bold">STEP 7: </span> Fill in  the required details correctly
                     </li>
-                    <li>
-                    Upon successful registration, you will receive an email notification of successful registration
+                    <li className="pb-2">
+                    <span className=" font-bold">STEP 8: </span> Upon successful registration, you will receive an email notification of successful registration
                     </li>
                     
                 </ul>
