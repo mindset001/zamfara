@@ -1,7 +1,7 @@
 import { star } from "../assets";
 
 const Registration = () => (
-    <section className="bg-[#372F2D] px-2 md:px-[10%] py-[5%] text-white">
+    <section className="bg-[#372F2D] px-2 md:px-[10%] py-[5%] text-white" id="register">
         
             
             <div className ="flex align-center justify-center">

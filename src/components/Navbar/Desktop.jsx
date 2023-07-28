@@ -10,10 +10,10 @@ const Header = () => (
            </div>
                <div className="w-[40%]">
                 <ul className="flex justify-between text-[20px] font-semibold ">
-                    <li className="cursor-pointer hover:text-white active:text-white">Home</li>
-                    <li>Register</li>
-                    <li>Category</li>
-                    <li>About ZEP</li>
+                    <li className="cursor-pointer hover:text-white active:text-white"><a href="/">Home</a></li>
+                    <li className="cursor-pointer hover:text-white active:text-white"> <a href="#register">Register</a></li>
+                    <li><a href="#category">Category</a></li>
+                    <li><a href="#msg">About ZEP</a></li>
                 </ul>
                </div>
             </div>

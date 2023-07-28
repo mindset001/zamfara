@@ -29,10 +29,10 @@ export default function Mobile() {
     return (
         <div className="w-full bg-[#D0B35F] p-6 fixed text-white">
         <ul className="flex flex-col text-right text-[20px] font-semibold ">
-            <li className="cursor-pointer hover:text-white active:text-white">Home</li>
-            <li>Register</li>
-            <li>Category</li>
-            <li>About ZEP99</li>
+        <li className="cursor-pointer hover:text-white active:text-white"><a href="/">Home</a></li>
+                    <li className="cursor-pointer hover:text-white active:text-white"> <a href="#register">Register</a></li>
+                    <li><a href="#category">Category</a></li>
+                    <li><a href="#msg">About ZEP</a></li>
         </ul>
        </div>
     );
